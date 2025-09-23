@@ -5,7 +5,7 @@ class Solution {
 		}
 		String number = String.valueOf(x);
         int size = number.length();
-		for(int i= 0; i<size; i++) {
+		for(int i= 0; i<size/2; i++) {
 			if(number.charAt(i)!=number.charAt(size-i-1)) {
 				return false;
 			}
